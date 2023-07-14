@@ -1,0 +1,54 @@
+.card {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  justify-content: space-between;
+  background-color: white;
+  width: 300px;
+  margin: 10px;
+  padding: 77px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+  position: relative;
+}
+
+.card img {
+  width: 100%;
+  border-radius: 5px;
+}
+
+.card h2 {
+  margin-top: 10px;
+  font-size: 24px;
+  font-weight: bold;
+  margin: 0 0 10px 0;
+  font-family: "Comic Sans MS", cursive;
+}
+
+p {
+  font-size: 16px;
+  margin: 0 0 10px 0;
+  font-family: "Comic Sans MS", cursive; /* шрифт комиксов */
+}
+
+.button {
+  position: absolute;
+  top: 1px;
+  right: 4px;
+  width: 109px;
+  height: 89px;
+  background-image: url("https://us.123rf.com/450wm/lineartestpilot/lineartestpilot1402/lineartestpilot140205133/26028334-bande-dessin%C3%A9e-symbole-d-explosion.jpg?ver=6");
+  background-size: cover;
+  text-align: center;
+  line-height: 7;
+  color: red;
+  font-weight: bold;
+  font-family: "Comic Sans MS", cursive; /* шрифт комиксов */
+  cursor: pointer;
+  transition: transform 0.3s; /* Добавляем плавный переход */
+}
+
+.button:hover {
+  transform: scale(1.1); /* Увеличиваем размер кнопки на 10% */
+}
